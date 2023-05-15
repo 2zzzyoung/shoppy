@@ -16,7 +16,6 @@ export default function ProductDetail() {
     const handleClick = async (e) => {
         const product = { id, image, title, price, option: selected, quantity: 1 };
         addOrUpdateToCart(uid, product);
-        alert("등록성공");
     };
     return (
         <>
